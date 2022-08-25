@@ -274,4 +274,9 @@ b{
     .s2{
         padding: 10px 15px 0;
     }
+    .button-container{
+        position: relative;
+        right: auto;
+        text-align: center;
+    }
 }

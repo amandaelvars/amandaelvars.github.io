@@ -257,6 +257,7 @@ b{
             'left-wrapper';
         margin: 0 10px;
         height: fit-content;
+        overflow: hidden;
     }
     .title{
         padding: 0 10px;
@@ -273,6 +274,8 @@ b{
     }
     .about-container{
         padding: 10px;
+        height: fit-content;
+        overflow: hidden;
     }
     .s2{
         padding: 10px 15px 0;

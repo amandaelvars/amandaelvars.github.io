@@ -293,4 +293,7 @@ b{
 
 @media (hover: none) {
     /* behaviour for touch browsers */
+    .navbar{
+        padding-top: 10px;
+    }
   }

@@ -262,6 +262,9 @@ b{
         padding: 0 10px;
         font-size: 30px;
     }
+    .navbar{
+        position: relative;
+    }
     .navtext{
         font-size: 8px;
     }

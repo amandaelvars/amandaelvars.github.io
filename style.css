@@ -204,9 +204,11 @@ h2 { font-size: 26px;}
 }
 
 .about-pic{
-    width: 350px;
+    max-width: 350px;
     padding-right: 15px;
     border-radius: 5px 0 0 5px;
+    height: 466px;
+    margin: auto;
 }
 
 .about-me-text{

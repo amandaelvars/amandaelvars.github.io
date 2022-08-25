@@ -280,7 +280,9 @@ b{
         overflow: hidden;
     }
     .s2{
-        padding: 10px 15px 0;
+        padding: 10px 15px 10px;
+        height: fit-content;
+        overflow:hidden;
     }
     .button-container{
         position: relative;
@@ -288,3 +290,7 @@ b{
         text-align: center;
     }
 }
+
+@media (hover: none) {
+    /* behaviour for touch browsers */
+  }

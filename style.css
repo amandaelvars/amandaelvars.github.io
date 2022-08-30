@@ -236,10 +236,6 @@ h2 { font-size: 26px;}
     line-height: 24px;
 }
 
-b{
-    font-weight: 700;
-}
-
 .contact-info{
     display: flex;
     flex-direction: column;
@@ -247,6 +243,10 @@ b{
     align-items: center;
     color: var(--whiteColor);
     margin: 90px;
+}
+
+b{
+    font-weight: 700;
 }
 
 @keyframes fadeIn {

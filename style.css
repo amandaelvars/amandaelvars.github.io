@@ -89,7 +89,11 @@ h2 { font-size: 26px;}
     padding: 20px 50px 0;
     animation: slide-from-bottom 2s;
     color: var(--whiteColor);
-    height: 100%;
+}
+
+.s3{
+    overflow: auto;
+
 }
 
 .main-container{
@@ -236,6 +240,15 @@ b{
     font-weight: 700;
 }
 
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--whiteColor);
+    margin: 90px;
+}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
@@ -277,12 +290,14 @@ b{
     .about-container{
         padding: 10px;
         height: fit-content;
-        overflow: hidden;
+        overflow-x:hidden;
+        overflow-y:hidden;
     }
     .s2{
         padding: 10px 15px 10px;
         height: fit-content;
-        overflow:hidden;
+        overflow-x:hidden;
+        overflow-y:hidden;
     }
     .button-container{
         position: relative;

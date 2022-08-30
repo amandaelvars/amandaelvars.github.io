@@ -243,6 +243,15 @@ h2 { font-size: 26px;}
     align-items: center;
     color: var(--whiteColor);
     margin: 90px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.fa-envelope{
+    font-size: 24px;
+}
+
+.email-text{
+    margin: 8px 0;
 }
 
 b{
